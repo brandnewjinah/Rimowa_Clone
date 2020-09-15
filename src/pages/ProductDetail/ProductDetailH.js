@@ -6,14 +6,14 @@ import axios from "axios";
 import Header from "../../components/Header/Header";
 import Nav from "../../components/Nav/Nav";
 import { DropdownCategory } from "../../components/Dropdown/DropdownH";
-import Buttons from "../../components/Buttons";
+import * as Buttons from "../../components/Buttons";
 import Specs from "./Specs";
 import Elements from "./Elements";
 import Footer from "../../components/Footer/Footer";
 import Carousel from "nuka-carousel";
 
 //import styles and assets
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import "../../styles/common.scss";
 
 //import redux
@@ -23,17 +23,17 @@ import { addItem } from "../../store/cart";
 const ProductDetailH = (props) => {
   const [data, setData] = useState({});
 
-  // const getData = async () => {
-  //   const { data } = await axios.get("/data/test.json");
-  //   setData(data.data);
-  // };
-
   const getData = async () => {
-    const { data } = await axios.get(
-      "http://3.34.135.207:8000/product" + props.location.search
-    );
+    const { data } = await axios.get("/data/test.json");
     setData(data.data);
   };
+
+  // const getData = async () => {
+  //   const { data } = await axios.get(
+  //     "http://3.34.135.207:8000/product" + props.location.search
+  //   );
+  //   setData(data.data);
+  // };
 
   useEffect(() => {
     getData();
@@ -92,7 +92,11 @@ const ProductDetailH = (props) => {
               <div style={{ width: 320 }}>
                 <DropdownCategory data={data} />
                 {/* <Buttons label="Purchase" onClick={() => props.addItem(data)} /> */}
-                <Buttons label="Purchase" onClick={() => goToCart(data)} />
+                <Buttons.Default
+                  label="Purchase"
+                  color="#0c67e7"
+                  onClick={() => goToCart(data)}
+                />
               </div>
               <Description>
                 <h5>{data.stock_status}</h5>

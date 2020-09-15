@@ -3,7 +3,6 @@ import { Signin } from "../services/authService";
 import { withRouter } from "react-router-dom";
 
 //import components
-import Nav from "../components/Nav/Nav";
 import Footer from "../components/Footer/Footer";
 import { InputField, PwInputField } from "../components/Forms/Input";
 
@@ -62,7 +61,6 @@ const Loginh = (props) => {
 
   return (
     <Wrapper>
-      <Nav />
       <Container>
         <Section>
           <h3>Sign in to your acocunt</h3>

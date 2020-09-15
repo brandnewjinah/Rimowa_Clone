@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { withRouter } from "react-router-dom";
 
 //import components
-import Buttons from "../../components/Buttons";
+import * as Buttons from "../../components/Buttons";
 
 //import styles and assets
 import styled from "styled-components";
@@ -34,7 +34,7 @@ const CartTotal = (props) => {
         <h3>Estimated Total</h3>
         <h3>{props.total}€</h3>
       </Flex>
-      <Buttons label="Checkout" onClick={() => goToCheckout()} />
+      <Buttons.Buttons label="Checkout" onClick={() => goToCheckout()} />
     </Container>
   );
 };
