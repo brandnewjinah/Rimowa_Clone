@@ -2,7 +2,7 @@
 
 ### Introduction
 
-- RIMOWA®ecommerce site clone project, as a part of the WeCode bootcamp curriculum
+- RIMOWA® ecommerce site clone project, as a part of the WeCode bootcamp curriculum
 - Team: 3 front-end developers and 2 back-end devleopers
 - Duration: May 25, 2020 - June 5, 2020
 
