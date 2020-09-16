@@ -1,56 +1,109 @@
-# Rimowa.com Clone Project
+# Rimowa Clone Project
 
-### Introduction
+**INTRODUCTION**
 
-- RIMOWA® ecommerce site clone project, as a part of the WeCode bootcamp curriculum
+- RIMOWA®ecommerce site clone project, as a part of the WeCode bootcamp curriculum
 - Team: 3 front-end developers and 2 back-end devleopers
 - Duration: May 25, 2020 - June 5, 2020
 
-### Demo
+**DEMO VIDEO**
 
-[See the demo video here](https://www.youtube.com/watch?v=a3mt9oeqr9Q&feature=youtu.be&ab_channel=Projects)
+[https://youtu.be/a3mt9oeqr9Q](https://youtu.be/a3mt9oeqr9Q)
 
-### Goal
+**FEATURES IMPLEMENTED**
 
-- Use React and understand the life cycle
-- Use redux to manage the state
-- Minimize the use of libraries to understand the principle behind functionalities
-- Understand the minimal user flow for an ecommerce site
+**Register**
 
-### Note
+**Basic Flow**
 
-- It was originally coded with Class components but I refactored using Hooks. To see the original code, click [here.](https://github.com/wecode-bootcamp-korea/WeMOWA-frontend)
+Fill out required fields and submit
 
-### My Responsibilities
+Validate client side errors
 
-**Login/Signup**
+Call server
 
-- Validating client side errors
-- Handling server errors
-- Creating reusable dropdown component and input field component
-- Communicating with the backend using Axios
-- Handling JWT to log in and out current user
+Validate server side errors
+
+Go to Login
+
+**What I've done**
+
+·  Created reusable dropdown component
+
+·  Created reusable input field component
+
+·  Created reusable button component 
+
+·  Created `validate` method to check for client side errors
+
+·  Used `try..catch` statement to handle server side errors
+
+**Login**
+
+**Basic Flow**
+
+Fill out required fields and submit
+
+Validate client side errors
+
+Call server
+
+Validate server side errors
+
+Go to Homepage and display user on the header
+
+**What I've done**
+
+·  Everything from the Register flow
+
+·  Stored JWT to localStorage
+
+·  Used jwt-decode library to decode user info and send it to header
+
+·  Displayed user name on header upon signin
 
 **Homepage**
 
-- Creating the full page layout including animation on scroll
+Created full page layout and implemented animation on scroll
 
-**Product Detail Page**
+**Product Page**
 
-- Implementing image slider using a library
-- Creating a reusable dropdown component
-- Implementing redux to save user selected product and qty to the store
+**Basic Flow**
 
-**Shopping Cart**
+Fetch data from server to display information
 
-- Implementing redux to access the store and update the changes
-- Adding ability to edit quantity, delete an item and calculate the subtotal
+Purchase
+
+Go to cart
+
+**What I've done**
+
+·  Implemented image slider library
+
+·  Implemented redux to save user selected product info to the store
+
+**Cart**
+
+**Basic Flow**
+
+Get products from the redux store and display
+
+Update or delete item
+
+Go to checkout
+
+ ****
+
+**What I've done**
+
+Implemented redux to access the store
+
+Added ability to update or delete product and reflected to the calulation
 
 **Checkout**
 
-- Implementing redux to access the store and show the final list of items
-- Calculating the total amount
+Implemented redux to access the store to display final list of products
 
 **Customize**
 
-- Creating the full page layout before handing it off to another developer for completion
+Creating the full page layout before handing it off to another developer
