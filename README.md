@@ -16,33 +16,52 @@
 **REGISTER**
 
 **Basic Flow**
+
 Fill out required fields and submit
+
 Validate client side errors
+
 Call server
+
 Validate server side errors
+
 Go to Login
 
 **What I've done**
+
 ·  Created reusable dropdown component
+
 ·  Created reusable input field component
+
 ·  Created reusable button component 
+
 ·  Created `validate` method to check for client side errors
+
 ·  Used `try..catch` statement to handle server side errors
 
 
 **LOGIN**
 
 **Basic Flow**
+
 Fill out required fields and submit
+
 Validate client side errors
+
 Call server
+
 Validate server side errors
+
 Go to Homepage and display user on the header
 
 **What I've done**
+
 ·  Everything from the Register flow
+
 ·  Stored JWT to localStorage
+
 ·  Used jwt-decode library to decode user info and send it to header
+
 ·  Displayed user name on header upon signin
 
 
@@ -53,28 +72,39 @@ Created full page layout and implemented animation on scroll
 **PRODUCT PAGE**
 
 **Basic Flow**
+
 Fetch data from server to display information
+
 Purchase
+
 Go to cart
 
 **What I've done**
+
 ·  Implemented image slider library
+
 ·  Implemented redux to save user selected product info to the store
 
 
 **CART**
 
 **Basic Flow**
+
 Get products from the redux store and display
+
 Update or delete item
+
 Go to checkout
 
 **What I've done**
+
 Implemented redux to access the store
+
 Added ability to update or delete product and reflected to the calulation
 
 
 **CHECKOUT**
+
 Implemented redux to access the store to display final list of products
 
 
