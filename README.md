@@ -13,7 +13,7 @@
 
 ## FEATURES I IMPLEMENTED
 
-**REGISTER**
+### REGISTER
 
 **Basic Flow**
 
@@ -40,7 +40,7 @@ Go to Login
 ·  Used `try..catch` statement to handle server side errors
 
 
-**LOGIN**
+### LOGIN
 
 **Basic Flow**
 
@@ -65,11 +65,11 @@ Go to Homepage and display user on the header
 ·  Displayed user name on header upon signin
 
 
-**HOMEPAGE**
+### HOMEPAGE
 Created full page layout and implemented animation on scroll
 
 
-**PRODUCT PAGE**
+### PRODUCT PAGE
 
 **Basic Flow**
 
@@ -86,7 +86,7 @@ Go to cart
 ·  Implemented redux to save user selected product info to the store
 
 
-**CART**
+### CART
 
 **Basic Flow**
 
@@ -103,11 +103,11 @@ Implemented redux to access the store
 Added ability to update or delete product and reflected to the calulation
 
 
-**CHECKOUT**
+### CHECKOUT
 
 Implemented redux to access the store to display final list of products
 
 
-**CUSTOMIZE**
+### CUSTOMIZE
 
 Created the full page layout before handing it off to another developer
