@@ -6,7 +6,11 @@ import styled from "styled-components";
 import * as Typography from "./Typography";
 import colors from "./Colors";
 
-const HeaderH = (props) => {
+//import redux
+import { connect } from "react-redux";
+import { GET_TOTAL } from "../store/cart";
+
+const Header = (props) => {
   const [visible, setVisible] = useState(false);
 
   const handleLogout = () => {
@@ -48,7 +52,12 @@ const HeaderH = (props) => {
         )}
         <i className="fas fa-search"></i>
         <i className="far fa-heart"></i>
-        <i className="fas fa-shopping-bag"></i>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <i className="fas fa-shopping-bag"></i>
+          {props.qty === 0 ? null : (
+            <div style={{ marginLeft: 5 }}>{props.qty}</div>
+          )}
+        </div>
       </Flex>
     </Container>
   );
@@ -59,6 +68,7 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 2em 5em 0.75em;
+  background-color: white;
 `;
 
 const Flex = styled.div`
@@ -84,11 +94,17 @@ const User = styled.div`
 const Logout = styled.div`
   position: absolute;
   width: 100%;
-  border: 1px solid ${colors.lightgray};
+  border: 1px solid ${colors.faintgray};
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
   &:hover {
     background-color: #eee;
   }
 `;
 
-export default withRouter(HeaderH);
+const mapStateToProps = (state) => {
+  const { qty } = state;
+  return { qty };
+};
+
+export default withRouter(connect(mapStateToProps)(Header));

@@ -1,0 +1,154 @@
+{
+  "original": [
+    {
+      "id": 1,
+      "product_id": 41,
+      "collection": "ORIGINAL",
+      "name": "Trunk",
+      "size": "31 x 20 x 11 inch",
+      "price": "1610.00",
+      "variants": [
+        {
+          "name": "Cabin",
+          "size": "22 x 16 x 9 inch",
+          "price": "1050.00"
+        },
+        {
+          "name": "Check-In M",
+          "size": "27 x 17 x 11 inch",
+          "price": "1230.00"
+        },
+        {
+          "name": "Check-In L",
+          "size": "31 x 20 x 11 inch",
+          "price": "1360.00"
+        },
+        {
+          "name": "Trunk",
+          "size": "29 x 17 x 14 inch",
+          "price": "1610.00"
+        }
+      ],
+      "stock_status": "LIMITED STOCK",
+      "description": "The unmistakable RIMOWA Original aluminium suitcase with its distinctive grooves is regarded as one of the most iconic luggage designs of all time. Made from high-end anodised aluminium, the RIMOWA Original Trunk XL in silver is our largest suitcase yet. An oversized edition inspired by our original trunks, this extra large four wheel suitcase is the same height as the RIMOWA Original Trunk Plus and offers 25% more space for less than 6% of additional weight. Suited to open-ended voyages of four weeks or more. Includes a complimentary leather luggage tag and sticker set.",
+      "color": "Silver",
+      "images": [
+        {
+          "id": 251,
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwd17c0765/images/large/92585004_1.png",
+          "product_id": 41
+        },
+        {
+          "id": 252,
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw8613f24b/images/large/92585004_2.png",
+          "product_id": 41
+        },
+        {
+          "id": 253,
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwe5e28c87/images/large/92585004_3.png",
+          "product_id": 41
+        },
+        {
+          "id": 254,
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwcfe189ec/images/large/92585004_4.png",
+          "product_id": 41
+        },
+        {
+          "id": 255,
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw0db4dfd7/images/large/92585004_5.png",
+          "product_id": 41
+        },
+        {
+          "id": 256,
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwc9ee7582/images/large/92585004_6.png",
+          "product_id": 41
+        },
+        {
+          "id": 257,
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw91b008ec/images/large/92585004_7.png",
+          "product_id": 41
+        }
+      ],
+      "color_urls": [
+        "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw052769f9/images/swatch/silver.png"
+      ],
+      "color_product_numbers": ["92585004"],
+      "wishlist": false
+    },
+    {
+      "id": 2,
+      "product_id": 43,
+      "collection": "ORIGINAL",
+      "name": "Cabin",
+      "size": "22 x 16 x 9 inch",
+      "price": "1230.00",
+      "variants": [
+        {
+          "name": "Cabin",
+          "size": "22 x 16 x 9 inch",
+          "price": "1050.00"
+        },
+        {
+          "name": "Check-In M",
+          "size": "27 x 17 x 11 inch",
+          "price": "1230.00"
+        },
+        {
+          "name": "Check-In L",
+          "size": "31 x 20 x 11 inch",
+          "price": "1360.00"
+        },
+        {
+          "name": "Trunk",
+          "size": "29 x 17 x 14 inch",
+          "price": "1610.00"
+        }
+      ],
+      "stock_status": "LIMITED STOCK",
+      "description": "The unmistakable RIMOWA Original aluminum suitcase with its distinctive grooves is regarded as one of the most iconic luggage designs of all time. Made from high-end anodized aluminum, the RIMOWA Original Cabin in silver is engineered with longevity in mind. Remarkably robust and surprisingly lightweight, the timeless classic is an unparalleled example of craftsmanship and innovation. Designed to fit in most airplane overhead bins, this lightweight carry-on luggage is ideal for a short weekend or business trip.",
+      "color": "Silver",
+      "images": [
+        {
+          "id": 251,
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwd17c0765/images/large/92585004_1.png",
+          "product_id": 41
+        },
+        {
+          "id": 252,
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw8613f24b/images/large/92585004_2.png",
+          "product_id": 41
+        },
+        {
+          "id": 253,
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwe5e28c87/images/large/92585004_3.png",
+          "product_id": 41
+        },
+        {
+          "id": 254,
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwcfe189ec/images/large/92585004_4.png",
+          "product_id": 41
+        },
+        {
+          "id": 255,
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw0db4dfd7/images/large/92585004_5.png",
+          "product_id": 41
+        },
+        {
+          "id": 256,
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwc9ee7582/images/large/92585004_6.png",
+          "product_id": 41
+        },
+        {
+          "id": 257,
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw91b008ec/images/large/92585004_7.png",
+          "product_id": 41
+        }
+      ],
+      "color_urls": [
+        "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw052769f9/images/swatch/silver.png"
+      ],
+      "color_product_numbers": ["92585004"],
+      "wishlist": false
+    }
+  ]
+}

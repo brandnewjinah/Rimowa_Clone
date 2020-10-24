@@ -59,7 +59,6 @@ class CheckOut extends Component {
             settingPostValue={this.settingPostValue}
           />
         ) : null}
-        <Header />
         <div className="checkOut-main">
           <section className="checkOut-mainLeft">
             <div className="CheckOutMenu-item">

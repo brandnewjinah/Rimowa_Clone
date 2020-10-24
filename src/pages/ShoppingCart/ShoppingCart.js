@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 
 //import components
-import Header from "../../components/Header/Header";
-import Nav from "../../components/Nav/Nav";
 import Footer from "../../components/Footer/Footer";
 import CartHeader from "./CartHeader";
 import CartMain from "./CartMain";
@@ -17,8 +15,6 @@ import { connect } from "react-redux";
 const ShoppingCart = ({ items }) => {
   return (
     <Wrapper>
-      <Header />
-      <Nav />
       <Container>
         <CartHeader />
         {items.length === 0 ? <CartEmpty /> : <CartMain />}

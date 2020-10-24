@@ -3,8 +3,31 @@
     "id": 1,
     "collection": "ORIGINAL",
     "product_id": 41,
-    "name": "Trunk XL",
-    "price": "1530.00",
+    "name": "Trunk",
+    "size": "31 x 20 x 11 inch",
+    "variants": [
+      {
+        "name": "Cabin",
+        "size": "22 x 16 x 9 inch",
+        "price": "1050.00"
+      },
+      {
+        "name": "Check-In M",
+        "size": "27 x 17 x 11 inch",
+        "price": "1230.00"
+      },
+      {
+        "name": "Check-In L",
+        "size": "31 x 20 x 11 inch",
+        "price": "1360.00"
+      },
+      {
+        "name": "Trunk",
+        "size": "29 x 17 x 14 inch",
+        "price": "1610.00"
+      }
+    ],
+    "price": "1610.00",
     "stock_status": "LIMITED STOCK",
     "description": "The unmistakable RIMOWA Original aluminium suitcase with its distinctive grooves is regarded as one of the most iconic luggage designs of all time. Made from high-end anodised aluminium, the RIMOWA Original Trunk XL in silver is our largest suitcase yet. An oversized edition inspired by our original trunks, this extra large four wheel suitcase is the same height as the RIMOWA Original Trunk Plus and offers 25% more space for less than 6% of additional weight. Suited to open-ended voyages of four weeks or more. Includes a complimentary leather luggage tag and sticker set.",
     "color": "Silver",

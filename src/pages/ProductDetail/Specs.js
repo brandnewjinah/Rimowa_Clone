@@ -29,7 +29,7 @@ const Specs = () => {
                 <div className="specWidth flexJustifyCenter">
                   <div className="width">
                     <span>Width</span>
-                    <span>43,5 CM</span>
+                    <span>43.5 CM</span>
                   </div>
                 </div>
               </div>
@@ -39,7 +39,7 @@ const Specs = () => {
               <div className="specDepth flexJustifyCenter">
                 <div className="depth">
                   <span>Depth</span>
-                  <span>43,5 CM</span>
+                  <span>43.5 CM</span>
                 </div>
               </div>
             </div>

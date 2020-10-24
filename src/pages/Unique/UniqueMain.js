@@ -32,14 +32,14 @@ class UniqueMain extends Component {
   render() {
     return (
       <div className="UniqueMain">
-        <div className="unHeader">
-          {/* <div className="HeaderStyle">
+        {/* <div className="unHeader">
+          <div className="HeaderStyle">
             <Header />
-          </div> */}
-          {/* <div className="NavStyle">
+          </div>
+          <div className="NavStyle">
             <Nav />
-          </div> */}
-        </div>
+          </div>
+        </div> */}
         <div className="unHero">
           <video
             autoPlay

@@ -26,7 +26,7 @@ const Register = (props) => {
     name: "",
     email: "",
     password: "",
-    // confirmPassword: "",
+    confirmPassword: "",
   });
   const [errors, setErrors] = useState({});
   const [title, setTitle] = useState(titles[0].name);
@@ -47,12 +47,12 @@ const Register = (props) => {
     if (account.password === "") {
       errors.password = "password is required";
     }
-    // if (account.confirmPassword === "") {
-    //   errors.confirmPassword = "password is required";
-    // }
-    // if (account.password !== account.confirmPassword) {
-    //   errors.confirmPassword = "password doesn't match";
-    // }
+    if (account.confirmPassword === "") {
+      errors.confirmPassword = "password is required";
+    }
+    if (account.password !== account.confirmPassword) {
+      errors.confirmPassword = "password doesn't match";
+    }
     return Object.keys(errors).length === 0 ? null : errors;
   };
 
@@ -77,7 +77,7 @@ const Register = (props) => {
   const callServer = async () => {
     try {
       await Registration(account);
-      props.history.push("/loginh");
+      props.history.push("/login");
     } catch (ex) {
       if (ex.response && ex.response.status === 400) {
         alert("already registered");
@@ -148,13 +148,13 @@ const Register = (props) => {
               </Typography.P>
             </Row>
             <Row>
-              {/* <Input.PwInputField
+              <Input.PwInputField
                 placeholder="Confirm Password*"
                 name="confirmPassword"
                 value={account.confirmPassword}
                 error={errors.confirmPassword}
                 handleChange={handleChange}
-              /> */}
+              />
             </Row>
             <Vspacing />
             <Input.Checkbox

@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
-import Header from "../../components/Header/Header";
-import Nav from "../../components/Nav/Nav";
-import Footer from "../../components/Footer/Footer";
+
 import "./etc.scss";
 
 class PageNotFound extends Component {
@@ -13,8 +11,6 @@ class PageNotFound extends Component {
   render() {
     return (
       <div className="PageNotFound">
-        <Header />
-        <Nav />
         <div className="pnf flexColumnCenter">
           <h3>404</h3>
           <h2>Something went wrong</h2>
@@ -29,7 +25,6 @@ class PageNotFound extends Component {
             Start Shopping
           </button>
         </div>
-        <Footer />
       </div>
     );
   }
