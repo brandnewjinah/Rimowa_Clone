@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "product_number": 92585004,
+      "collection": "original",
+      "name": "Truck XL",
+      "price": "1,960.00",
+      "img": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf809a28a/images/medium/92590032_1.png",
+      "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwfcb21f70/images/medium/92590032_2.png",
+      "currency": "euro",
+      "colorName": "Silver"
+    },
+    {
+      "product_number": 92590041,
+      "collection": "essential",
+      "name": "Trunk Plus",
+      "price": "1,020.00",
+      "img": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw2e15b0fb/images/medium/83280904_1.png",
+      "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwa7c493b1/images/medium/83280904_2.png",
+      "currency": "euro",
+      "colorName": "Rose",
+      "colorVariant": [
+        {
+          "name": "Rose",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw258ecd01/images/swatch/desertrose_gloss.jpg"
+        },
+        {
+          "name": "Saffron",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw61c50f60/images/swatch/Saffron_Trunk.png"
+        },
+        {
+          "name": "Cactus",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw8049ad4d/images/swatch/iphone_cactus.jpg"
+        },
+        {
+          "name": "Berry",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw95d60f72/images/swatch/berry.png"
+        }
+      ]
+    },
+    {
+      "product_number": 92552014,
+      "collection": "classic",
+      "name": "Cabin",
+      "price": "1,050.00",
+      "img": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw8e6fb3bd/images/medium/97353014_1.png",
+      "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw21c55f9b/images/medium/97353014_2.png",
+      "currency": "euro",
+      "colorName": "Black",
+      "colorVariant": [
+        {
+          "name": "Black",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw024505c1/images/swatch/classic_black.jpg"
+        },
+        {
+          "name": "Silver",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw052769f9/images/swatch/silver.png"
+        }
+      ]
+    },
+    {
+      "product_number": 92552014,
+      "collection": "Classic",
+      "name": "Check-In M",
+      "price": "1,230.00",
+      "img": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw6c222f3b/images/medium/97263034_1.png",
+      "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw63cf4880/images/medium/97263034_2.png",
+      "currency": "euro",
+      "colorName": "Silver"
+    },
+    {
+      "product_number": 92552014,
+      "collection": "original",
+      "name": "Cabin S",
+      "price": "1,000.00",
+      "img": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw3e2466ae/images/medium/92552034_1.png",
+      "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwba259a36/images/medium/92552034_2.png",
+      "currency": "euro",
+      "colorName": ["Coral"]
+    },
+    {
+      "product_number": 92552014,
+      "collection": "Dior and Rimowa",
+      "name": "Hand Case",
+      "price": "2,400.00",
+      "img": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf59b2afc/images/medium/99090002_1.png",
+      "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw4d8d95ba/images/medium/99090002_2.png",
+      "currency": "euro",
+      "colorName": "Black"
+    },
+    {
+      "product_number": 92552014,
+      "collection": "Essential Sleeve",
+      "name": "Cabin S",
+      "price": "710.00",
+      "img": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw6b7b9ef2/images/medium/84252614_1.png",
+      "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwd37a7c05/images/medium/84252614_2.png",
+      "currency": "euro",
+      "colorName": "Blue",
+      "colorVariant": [
+        {
+          "name": "Blue",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw8c150024/images/swatch/esblue_matte.png"
+        },
+        {
+          "name": "Blue",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwc1a241ed/images/swatch/black_matte.png"
+        }
+      ]
+    },
+    {
+      "product_number": 92552014,
+      "collection": "Essential",
+      "name": "Trunk",
+      "price": "950.00",
+      "img": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwd15fb37a/images/medium/83275664_1.png",
+      "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwc5241ed4/images/medium/83275664_2.png",
+      "currency": "euro",
+      "colorName": "White",
+      "colorVariant": [
+        {
+          "name": "White",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw80c54d5d/images/swatch/white_gloss.png"
+        },
+        {
+          "name": "Red",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwaabe9578/images/swatch/red_gloss.png"
+        },
+        {
+          "name": "Blue",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwc1e00a6e/images/swatch/blue_gloss.png"
+        },
+        {
+          "name": "Black",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwedd36852/images/swatch/black_gloss.png"
+        }
+      ]
+    },
+    {
+      "product_number": 92552014,
+      "collection": "original",
+      "name": "Check-In L Twist",
+      "price": "1,600.00",
+      "img": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw739db0ca/images/medium/92590059_1.png",
+      "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwbd5607ae/images/medium/92590059_2.png",
+      "currency": "euro",
+      "colorName": "Red",
+      "colorVariant": [
+        {
+          "name": "Red",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw10d5f1a0/images/swatch/red_twist.png"
+        },
+        {
+          "name": "Blue",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw5b775a9d/images/swatch/blue_twist.png"
+        },
+        {
+          "name": "Brown",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw36b7c7fd/images/swatch/cognac_twist.png"
+        }
+      ]
+    }
+  ]
+}

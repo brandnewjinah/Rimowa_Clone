@@ -7,9 +7,11 @@ import Login from "./user/Login";
 import Register from "./user/Register";
 import Logout from "./components/Header/Logout";
 
-import AccList from "./pages/Accessories/AccList";
 import ProductList from "./pages/Luggage/ProductList";
-import ProductDetailH from "./pages/ProductDetail/ProductDetailH";
+import ProductListH from "./pages/Luggage/ProductListH";
+
+import AccList from "./pages/Accessories/AccList";
+import ProductDetail from "./pages/ProductDetail/ProductDetailH";
 import CartWrapper from "./pages/ShoppingBag/CartWrapper";
 import Unique from "./pages/Unique/UniqueMain";
 import OrderSumm from "./pages/ShoppingBag/OrderSumm";
@@ -54,7 +56,9 @@ const Routes = () => {
           <Route exact path="/register" component={Register}></Route>
           <Route exact path="/logout" component={Logout}></Route>
 
-          <Route exact path="/product" component={ProductDetailH}></Route>
+          <Route exact path="/products" component={ProductListH} />
+
+          <Route exact path="/product" component={ProductDetail}></Route>
           <Route exact path="/cart" component={CartWrapper}></Route>
           <Route exact path="/ordersumm" component={OrderSumm}></Route>
           <Route exact path="/test" component={SizesDD}></Route>

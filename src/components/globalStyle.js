@@ -2,6 +2,12 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
 background-color: #fbfaf9;
 }
@@ -26,9 +32,13 @@ h4 {
     text-transform: uppercase;
     letter-spacing: 0.1875rem;
   }
-h6 {
+h5 {
     font-size: 0.9rem;
     font-weight: 400;
+    text-transform: uppercase;
+}
+h6 {
+    font-size: 0.75rem;
     text-transform: uppercase;
 }
 `;
