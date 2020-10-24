@@ -1,15 +1,16 @@
 # Rimowa Clone Project
 
-
 ## INTRODUCTION
+
 - RIMOWA®ecommerce site clone project, as a part of the WeCode bootcamp curriculum
 - Team: 3 front-end developers and 2 back-end devleopers
 - Duration: May 25, 2020 - June 5, 2020
-
+- I'm continuing to refactor the code for what I've worked on
+- I'm also recreating pages that my teammates worked on, for my practice purpose.
 
 ## DEMO VIDEO
-[https://youtu.be/a3mt9oeqr9Q](https://youtu.be/a3mt9oeqr9Q)
 
+[https://youtu.be/a3mt9oeqr9Q](https://youtu.be/a3mt9oeqr9Q)
 
 ## FEATURES I IMPLEMENTED
 
@@ -29,16 +30,15 @@ Go to Login
 
 **What I've done**
 
-·  Created reusable dropdown component
+· Created reusable dropdown component
 
-·  Created reusable input field component
+· Created reusable input field component
 
-·  Created reusable button component 
+· Created reusable button component
 
-·  Created `validate` method to check for client side errors
+· Created `validate` method to check for client side errors
 
-·  Used `try..catch` statement to handle server side errors
-
+· Used `try..catch` statement to handle server side errors
 
 ### LOGIN
 
@@ -56,18 +56,17 @@ Go to Homepage and display user on the header
 
 **What I've done**
 
-·  Everything from the Register flow
+· Everything from the Register flow
 
-·  Stored JWT to localStorage
+· Stored JWT to localStorage
 
-·  Used jwt-decode library to decode user info and send it to header
+· Used jwt-decode library to decode user info and send it to header
 
-·  Displayed user name on header upon signin
-
+· Displayed user name on header upon signin
 
 ### HOMEPAGE
-Created full page layout and implemented animation on scroll
 
+Created full page layout and implemented animation on scroll
 
 ### PRODUCT PAGE
 
@@ -81,10 +80,11 @@ Go to cart
 
 **What I've done**
 
-·  Implemented image slider library
+· Implemented image slider library
 
-·  Implemented redux to save user selected product info to the store
+· Created dropdown and accordion components
 
+· Implemented redux to save user selected product info to the store
 
 ### CART
 
@@ -102,11 +102,9 @@ Implemented redux to access the store
 
 Added ability to update or delete product and reflected to the calulation
 
-
 ### CHECKOUT
 
 Implemented redux to access the store to display final list of products
-
 
 ### CUSTOMIZE
 
