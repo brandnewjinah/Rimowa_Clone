@@ -33,7 +33,7 @@ class Nav extends Component {
   };
 
   goToLuggage = () => {
-    this.props.history.push("/productList");
+    this.props.history.push("/products");
   };
 
   goToAcc = () => {

@@ -11,11 +11,10 @@ import ProductList from "./pages/Luggage/ProductList";
 import ProductListH from "./pages/Luggage/ProductListH";
 
 import AccList from "./pages/Accessories/AccList";
-import ProductDetail from "./pages/ProductDetail/ProductDetailH";
+import ProductDetail from "./pages/ProductDetail/ProductDetail";
 import CartWrapper from "./pages/ShoppingBag/CartWrapper";
 import Unique from "./pages/Unique/UniqueMain";
 import OrderSumm from "./pages/ShoppingBag/OrderSumm";
-import SizesDD from "./pages/ProductDetail/SizesDD";
 import StoreLocator from "./pages/StoreLocator/StoreLocator";
 import CheckOut from "./shop/CheckOut/CheckOut";
 import UniqueTag from "./pages/Unique/UniqueTag";
@@ -62,7 +61,6 @@ const Routes = () => {
           <Route exact path="/product/:id" component={ProductDetail}></Route>
           <Route exact path="/cart" component={CartWrapper}></Route>
           <Route exact path="/ordersumm" component={OrderSumm}></Route>
-          <Route exact path="/test" component={SizesDD}></Route>
           <Route exact path="/productList" component={ProductList} />
           <Route exact path="/accList" component={AccList} />
           <Route exact path="/locator" component={StoreLocator} />

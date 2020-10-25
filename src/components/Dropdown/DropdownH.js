@@ -32,7 +32,7 @@ export const DropdownCategory = ({ data, handleSelection }) => {
     <div>
       <Border onClick={handleVisible}>
         <Left>
-          <Top>{data.collection}</Top>
+          <div className="top">{data.collection}</div>
           <Bottom>
             <div className="left">{selected.name}</div>
             <div className="right">{selected.size}</div>
@@ -142,16 +142,16 @@ const ArrowContainer = styled.div`
 
 const Left = styled.div`
   margin-right: 2em;
+
+  .top {
+    color: #adadad;
+  }
 `;
 
 const Right = styled.div`
   margin-right: 0.5em;
   display: flex;
   align-items: center;
-`;
-const Top = styled.div`
-  font-size: 0.75rem;
-  color: #adadad;
 `;
 
 const Bottom = styled.div`

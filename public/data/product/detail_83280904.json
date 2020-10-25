@@ -1,0 +1,124 @@
+{
+  "data": {
+    "id": 1,
+    "collection": "ESSENTIAL",
+    "product_id": 83280904,
+    "name": "Trunk Plus",
+    "size": "31 x 20 x 11 inch",
+    "height": "31.5",
+    "width": "17",
+    "depth": "14.8",
+    "variants": [
+      {
+        "name": "Cabin",
+        "size": "22 x 16 x 9 inch",
+        "price": "1050.00"
+      },
+      {
+        "name": "Check-In L",
+        "size": "31 x 20 x 11 inch",
+        "price": "1360.00"
+      }
+    ],
+    "price": "1020.00",
+    "stock_status": "LIMITED STOCK",
+    "description": "Designed with a distinctive shape inspired by our original trunks, the RIMOWA Essential Trunk Plus in Desert Rose Pink is built to offer travellers optimum capacity. A timeless classic luxuriously engineered with long-lasting performance in mind, this design icon is the unmistakable mark of a seasoned traveller. Oversized, yet still ultra-lightweight, this extra large 4 wheel suitcase is the ideal extra spacious check-in bag for journeys of 2 weeks or more.",
+    "color": "Rose",
+    "images": [
+      {
+        "id": 251,
+        "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw8f45f472/images/large/83280904_1.png",
+        "product_id": 41
+      },
+      {
+        "id": 252,
+        "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw5b0eb45a/images/large/83280904_2.png",
+        "product_id": 41
+      },
+      {
+        "id": 253,
+        "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf6a33106/images/large/83280904_3.png",
+        "product_id": 41
+      },
+      {
+        "id": 254,
+        "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw8d01be46/images/large/83280904_4.png",
+        "product_id": 41
+      },
+      {
+        "id": 255,
+        "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwc1272f77/images/large/83280904_5.png",
+        "product_id": 41
+      },
+      {
+        "id": 256,
+        "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwc9ee7582/images/large/92585004_6.png",
+        "product_id": 41
+      },
+      {
+        "id": 257,
+        "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw91b008ec/images/large/92585004_7.png",
+        "product_id": 41
+      }
+    ],
+    "colorVariant": [
+      {
+        "name": "Rose",
+        "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw258ecd01/images/swatch/desertrose_gloss.jpg"
+      },
+      {
+        "name": "Saffron",
+        "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw61c50f60/images/swatch/Saffron_Trunk.png"
+      },
+      {
+        "name": "Cactus",
+        "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw8049ad4d/images/swatch/iphone_cactus.jpg"
+      },
+      {
+        "name": "Berry",
+        "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw95d60f72/images/swatch/berry.png"
+      }
+    ],
+    "specImages": [
+      {
+        "type": "front",
+        "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf9556461/images/sizes/Orig_Trunk_PF.png"
+      },
+      {
+        "type": "side",
+        "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw04284d2c/images/sizes/Orig_TRunk_PS.png"
+      }
+    ],
+    "specs": [
+      {
+        "name": "weight",
+        "value": "11.9",
+        "unit": "lbs"
+      },
+      {
+        "name": "volume",
+        "value": "27.3",
+        "unit": "gal"
+      }
+    ],
+    "materials": [
+      {
+        "name": "Outside",
+        "value": "Polycarbonate"
+      },
+      {
+        "name": "Inside",
+        "value": "Polyjacquard"
+      },
+      {
+        "name": "Handles",
+        "value": "Plastic"
+      },
+      {
+        "name": "Wheels",
+        "value": "Polycarbonate"
+      }
+    ],
+    "wishlist": false
+  }
+}

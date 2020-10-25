@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600&display=swap');
 
 *{
   margin: 0;
@@ -10,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
 
 body {
 background-color: #fbfaf9;
+font-family: "Work Sans", sans-serif;
 }
 
 ul {
@@ -40,6 +42,10 @@ h5 {
 h6 {
     font-size: 0.75rem;
     text-transform: uppercase;
+}
+
+p{
+  font-size: 0.5rem;
 }
 `;
 
