@@ -52,9 +52,9 @@ export const DropdownCategory = ({ data, handleSelection }) => {
               borderRadius: "0.5em",
             }}
           >
-            {data.variants.map((d) => (
+            {data.variants.map((d, idx) => (
               <li
-                key={d.id}
+                key={idx}
                 style={{ display: "flex", justifyContent: "space-between" }}
                 onClick={() => handleSelect(d)}
               >

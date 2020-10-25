@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import _ from "lodash";
+import { Link } from "react-router-dom";
 
 //import components
 import ProductCard from "../../components/ProductCard";
@@ -104,7 +105,9 @@ const ProductListH = () => {
           </div>
           {sorted.map((product, idx) => (
             <div key={idx} className="col1">
-              <ProductCard data={product} />
+              <Link to={`/product/${product.product_number}`}>
+                <ProductCard data={product} />
+              </Link>
             </div>
           ))}
         </Container>
@@ -124,7 +127,7 @@ const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 1fr;
-  background-color: azure;
+  /* background-color: azure; */
 
   .col1 {
     justify-content: center;

@@ -22,12 +22,16 @@ const ProductDetailH = (props) => {
   const [data, setData] = useState({});
   const [wishlist, setWishlist] = useState(false);
 
+  console.log(props.match.params.id);
+
   useEffect(() => {
     getData();
   }, []);
 
   const getData = async () => {
-    const { data } = await axios.get("/data/detail.json");
+    const { data } = await axios.get(
+      `/data/detail_${props.match.params.id}.json`
+    );
     setData(data.data);
   };
 

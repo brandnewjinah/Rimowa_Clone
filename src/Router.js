@@ -59,6 +59,7 @@ const Routes = () => {
           <Route exact path="/products" component={ProductListH} />
 
           <Route exact path="/product" component={ProductDetail}></Route>
+          <Route exact path="/product/:id" component={ProductDetail}></Route>
           <Route exact path="/cart" component={CartWrapper}></Route>
           <Route exact path="/ordersumm" component={OrderSumm}></Route>
           <Route exact path="/test" component={SizesDD}></Route>
