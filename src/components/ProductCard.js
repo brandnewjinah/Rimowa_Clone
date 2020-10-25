@@ -11,7 +11,7 @@ const ProductCard = ({ data }) => {
       <Top>
         {data.colorVariant &&
           data.colorVariant.map((c, idx) => (
-            <div className="swatch">
+            <div key={idx} className="swatch">
               <img src={c.img_url} alt="" />
             </div>
           ))}
