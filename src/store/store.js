@@ -3,6 +3,15 @@ import { composeWithDevTools } from "redux-devtools-extension";
 import thunk from "redux-thunk";
 import reducer from "./cart";
 
+//persist
+import { persistStore, persistReducer } from "redux-persist";
+import storage from "redux-persist/lib/storage";
+
+const persistConfig = {
+  key: "root",
+  storage,
+};
+
 const initialStore = {
   items: [],
   total: 0,
@@ -10,11 +19,14 @@ const initialStore = {
 };
 
 const middleware = [thunk];
+const persistedReducer = persistReducer(persistConfig, reducer);
 
-const store = createStore(
-  reducer,
-  initialStore,
-  composeWithDevTools(applyMiddleware(...middleware))
-);
-
-export default store;
+export default () => {
+  const store = createStore(
+    persistedReducer,
+    initialStore,
+    composeWithDevTools(applyMiddleware(...middleware))
+  );
+  const persistor = persistStore(store);
+  return { store, persistor };
+};
