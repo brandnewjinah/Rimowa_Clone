@@ -23,8 +23,6 @@ const ProductDetailH = (props) => {
   const [data, setData] = useState({});
   const [wishlist, setWishlist] = useState(false);
 
-  console.log(props.match.params.id);
-
   useEffect(() => {
     getData();
   }, []);
@@ -44,7 +42,7 @@ const ProductDetailH = (props) => {
   // };
 
   const goToCart = (data) => {
-    // localStorage.setItem("product", data);
+    // console.log(data);
     props.addItem(data);
     props.history.push("../shoppingcart");
   };
@@ -139,7 +137,7 @@ const ProductDetailH = (props) => {
             <ul className="colors">
               {data.colorVariant &&
                 data.colorVariant.map((color, idx) => (
-                  <li className="swatch">
+                  <li key={idx} className="swatch">
                     <img src={color.img_url} alt="" />
                   </li>
                 ))}
@@ -265,32 +263,5 @@ const Detail = styled.div`
     }
   }
 `;
-
-// const Description = styled.div`
-//   text-align: center;
-
-//   h5 {
-//     font-size: 0.75rem;
-//     font-weight: 300;
-//     text-transform: uppercase;
-//     letter-spacing: 0.1rem;
-//   }
-// `;
-
-// const Options = styled.div`
-//   div {
-//     margin: 0 0.75em;
-
-//     &:first-child {
-//       border-right: 1px solid #eeeeee;
-//       padding-right: 1.25em;
-//     }
-//   }
-
-//   span {
-//     margin-left: 0.75em;
-//     border-bottom: 1px solid rgb(160, 160, 160);
-//   }
-// `;
 
 export default withRouter(connect(null, { addItem })(ProductDetailH));

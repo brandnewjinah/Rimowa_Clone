@@ -13,7 +13,7 @@ const CartItem = (props) => {
   };
 
   const handleDecrease = (id) => {
-    if (props.data.qty > 1) {
+    if (props.main.qty > 1) {
       props.decrease(id);
     }
   };
@@ -23,27 +23,27 @@ const CartItem = (props) => {
   };
 
   const totalPrice = () => {
-    const total = props.data.price * props.data.qty;
+    const total = props.main.price * props.main.qty;
     return total;
   };
 
   return (
     <Container>
       <Image>
-        <img src={props.data.images[0].img_url} alt="" />
+        <img src={props.main.images[0].img_url} alt="" />
       </Image>
       <Detail>
-        <h6>{props.data.collection}</h6>
-        <h3>{props.data.name}</h3>
-        <h6>{props.data.stock_status}</h6>
+        <h6>{props.main.collection}</h6>
+        <h3>{props.main.name}</h3>
+        <h6>{props.main.stock_status}</h6>
         <Price>
           <Counter>
-            <div onClick={() => handleDecrease(props.data.id)}>-</div>
-            <div>{props.data.qty}</div>
-            <div onClick={() => handleIncrease(props.data.id)}>+</div>
+            <div onClick={() => handleDecrease(props.main.product_id)}>-</div>
+            <div>{props.main.qty}</div>
+            <div onClick={() => handleIncrease(props.main.product_id)}>+</div>
           </Counter>
           <div>
-            <RemoveBtn onClick={() => handleRemove(props.data)}>
+            <RemoveBtn onClick={() => handleRemove(props.main)}>
               Remove
             </RemoveBtn>
             {/* <button>Remove</button> */}

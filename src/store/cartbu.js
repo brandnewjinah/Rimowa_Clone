@@ -1,5 +1,3 @@
-import { add } from "lodash";
-
 // Action types
 const ADD_ITEM = "ADD_ITEM";
 const REMOVE_ITEM = "REMOVE_ITEM";
@@ -75,43 +73,21 @@ export const addTag = (data) => {
 // Reducer
 const reducer = (state, action) => {
   if (action.type === ADD_ITEM) {
-    // 1. add one item to an empty cart
-    // 2. add one item to an active cart
-    // 3. add duplicate item
-
-    let added = action.payload.data;
-    let newItems = [...state.items];
-    let totalqty = state.qty;
-
-    //look for duplicate first
-
-    let duplicate = newItems.find(
-      (item) => item.product_id === added.product_id
-    );
-    if (duplicate) {
-      let index = newItems.findIndex(
-        (item) => item.product_id === added.product_id
-      );
-      newItems[index].qty += 1;
-      return { ...state, items: newItems, qty: totalqty + 1 };
-    } else {
-      newItems = [...newItems, { ...added, qty: 1 }];
-      return { ...state, items: newItems, qty: totalqty + 1 };
-    }
+    let { qty } = state;
+    const item = { ...action.payload.data, qty: 1 };
+    return { ...state, items: [item], qty: qty + 1 };
   }
   if (action.type === REMOVE_ITEM) {
     const { qty } = state;
     return {
       ...state,
-      items: state.items.filter(
-        (item) => item.product_id !== action.payload.data.product_id
-      ),
+      items: state.items.filter((item) => item.id !== action.payload.data.id),
       qty: qty - action.payload.data.qty,
     };
   }
   if (action.type === INCREASE) {
     let newItems = state.items.map((item) => {
-      if (item.product_id === action.payload.id) {
+      if (item.id === action.payload.id) {
         item = { ...item, qty: item.qty + 1 };
       }
       return item;
@@ -121,7 +97,7 @@ const reducer = (state, action) => {
   }
   if (action.type === DECREASE) {
     let newItems = state.items.map((item) => {
-      if (item.product_id === action.payload.id) {
+      if (item.id === action.payload.id) {
         item = { ...item, qty: item.qty - 1 };
       }
       return item;

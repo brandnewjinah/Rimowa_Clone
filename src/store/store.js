@@ -13,9 +13,9 @@ const persistConfig = {
 };
 
 const initialStore = {
+  qty: 0,
   items: [],
   total: 0,
-  qty: 0,
 };
 
 const middleware = [thunk];

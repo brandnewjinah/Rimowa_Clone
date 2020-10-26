@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { connect } from "react-redux";
 
 //import styles and assets
@@ -8,9 +8,6 @@ import styled from "styled-components";
 import { getTotal } from "../../store/cart";
 
 const CartHeader = (props) => {
-  // useEffect(() => {
-  //   props.getTotal();
-  // });
   return (
     <Container>
       <h4>Your Shopping Bag {props.qty}</h4>

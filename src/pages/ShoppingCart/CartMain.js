@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 //import components
 import CartItem from "./CartItem";
@@ -10,12 +10,12 @@ import styled from "styled-components";
 //import redux
 import { connect } from "react-redux";
 
-const CartMain = ({ items }) => {
+const CartMain = (props) => {
   return (
     <Container>
       <List>
-        {items.map((item) => (
-          <CartItem key={item.id} data={item} />
+        {props.items.map((item, idx) => (
+          <CartItem key={idx} main={item} />
         ))}
       </List>
       <Total>

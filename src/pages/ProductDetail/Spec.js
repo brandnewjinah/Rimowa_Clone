@@ -51,7 +51,7 @@ const Spec = ({ data }) => {
           <ul>
             {data.materials &&
               data.materials.map((m, idx) => (
-                <li>{`${m.name}: ${m.value}`}</li>
+                <li key={idx}>{`${m.name}: ${m.value}`}</li>
               ))}
           </ul>
         </Specs>
