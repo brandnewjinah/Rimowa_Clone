@@ -17,6 +17,7 @@ import Unique from "./pages/Unique/UniqueMain";
 import OrderSumm from "./pages/ShoppingBag/OrderSumm";
 import StoreLocator from "./pages/StoreLocator/StoreLocator";
 import CheckOut from "./shop/CheckOut/CheckOut";
+import Checkout from "./shop/Checkout";
 import UniqueTag from "./pages/Unique/UniqueTag";
 import OrderConfirmation from "./pages/Etc/OrderConfirmation";
 import PageNotFound from "./pages/Etc/PageNotFound";
@@ -64,7 +65,8 @@ const Routes = () => {
           <Route exact path="/productList" component={ProductList} />
           <Route exact path="/accList" component={AccList} />
           <Route exact path="/locator" component={StoreLocator} />
-          <Route exact path="/CheckOut" component={CheckOut}></Route>
+          {/* <Route exact path="/CheckOut" component={CheckOut}></Route> */}
+          <Route exact path="/Checkout" component={Checkout}></Route>
           <Route exact path="/Uniquetag" component={UniqueTag}></Route>
           <Route exact path="/shoppingcart" component={ShoppingCart}></Route>
           <Route exact path="/listh" component={ListH}></Route>
