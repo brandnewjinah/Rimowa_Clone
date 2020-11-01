@@ -13,7 +13,7 @@ class MainWrapper extends Component {
           <p className="wrapper-title">{this.props.title}</p>
           <ul>
             {this.props.colorPalette.map((color, idx) => {
-              console.log("idx", idx, color);
+              // console.log("idx", idx, color);
               return (
                 <li>
                   <div

@@ -12,10 +12,10 @@ const ProductCard2Col = ({ data }) => {
         <div>Discover</div>
       </Top>
       <Bottom>
-        {/* <img
+        <img
           src="https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwb295d7a3/images/large/92553004_1.png"
           alt=""
-        /> */}
+        />
       </Bottom>
     </Container>
   );
@@ -23,6 +23,7 @@ const ProductCard2Col = ({ data }) => {
 
 const Container = styled.div`
   width: 100%;
+  /* height: 300px; */
   background-color: #f7f5f4;
   display: flex;
   flex-direction: column;
@@ -38,11 +39,12 @@ const Top = styled.div`
 const Bottom = styled.div`
   text-align: center;
   padding: 1.5em;
+  height: 350px;
+  overflow: hidden;
 
   img {
     width: 100%;
     object-fit: cover;
-    overflow: hidden;
   }
 `;
 

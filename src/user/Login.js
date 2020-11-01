@@ -8,6 +8,7 @@ import { InputField, PwInputField } from "../components/Forms/Input";
 
 //import styles and assets
 import styled from "styled-components";
+import axios from "axios";
 
 const Loginh = (props) => {
   const [account, setAccount] = useState({
@@ -44,8 +45,16 @@ const Loginh = (props) => {
 
   const postData = async () => {
     try {
-      const { data: token } = await Signin(account.email, account.password);
-      localStorage.setItem("token", token);
+      const user = {
+        email: account.email,
+        password: account.password,
+      };
+      const { data: jwt } = await axios.post(
+        "http://localhost:5000/user/login",
+        user
+      );
+      console.log(jwt);
+      localStorage.setItem("token", jwt.token);
       // props.history.push("/");
       window.location = "/";
     } catch (ex) {

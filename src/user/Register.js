@@ -10,6 +10,7 @@ import * as Button from "../components/Buttons";
 //import styles and asses
 import styled from "styled-components";
 import * as Typography from "../components/Typography";
+import axios from "axios";
 
 const titles = [{ name: "Mr" }, { name: "Ms" }, { name: "Mrs" }];
 const countries = [
@@ -74,9 +75,22 @@ const Register = (props) => {
     setChecked({ ...checked, [event.target.name]: event.target.checked });
   };
 
-  const callServer = async () => {
+  const postData = async () => {
     try {
-      await Registration(account);
+      const user = {
+        email: account.email,
+        password: account.password,
+        name: account.name,
+        title: title,
+        country: country,
+        consent: checked.personal,
+      };
+      console.log(user);
+      // await Registration(account);
+      const registerUser = await axios.post(
+        "http://localhost:5000/user/signup",
+        user
+      );
       props.history.push("/login");
     } catch (ex) {
       if (ex.response && ex.response.status === 400) {
@@ -90,7 +104,7 @@ const Register = (props) => {
     const errors = validate();
     setErrors(errors || {});
     if (errors) return;
-    callServer();
+    postData();
   };
 
   return (

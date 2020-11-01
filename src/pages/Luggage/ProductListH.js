@@ -137,8 +137,8 @@ const Container = styled.div`
   }
 
   .col2 {
-    background-color: lavender;
     grid-column: 1 / 3;
+    grid-row: 1 / 2;
     margin: 10px;
     cursor: pointer;
   }
@@ -156,6 +156,7 @@ const Filter = styled.div`
   display: flex;
   justify-content: space-between;
   position: relative;
+  padding: 1em;
 
   .dropdown {
     position: absolute;
